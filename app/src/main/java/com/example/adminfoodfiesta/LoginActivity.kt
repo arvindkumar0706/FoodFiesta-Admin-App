@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         signInClient = Identity.getSignInClient(this)
 
-        val clientId="270094502602-01tho7ohhgvp3fj47nvnm4p47uj5lohv.apps.googleusercontent.com"
+        val clientId="Google_CLient_ID"
         // Request Google Sign-In
         val signInRequest = BeginSignInRequest.builder()
             .setGoogleIdTokenRequestOptions(
